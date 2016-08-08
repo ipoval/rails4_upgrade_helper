@@ -4,7 +4,7 @@
 # Help to reduce the size of the code changes and allow to do code review.
 
 # General helper
-def Rails.is_4?
+def Rails.four?
   Rails::VERSION::MAJOR.equal?(4)
 end
 
